@@ -18,26 +18,28 @@
   <body class="bg-white" style="font-family: 'Nunito', sans-serif">
     <!-- header -->
     <header class="py-7">
-      <nav class="lg:w-[1300px] mx-auto">
+      <nav class="w-[90%] lg:w-[85%] mx-auto">
         <a href="index.html">
           <img src="assets/images/logo.png" alt="" class="w-[134px] h-[45px]" />
         </a>
       </nav>
     </header>
     <main>
-      <section class="bg-black py-[50px]">
-        <div class="lg:w-[1300px] mx-auto grid grid-cols-1 md:grid-cols-2">
+      <section class="bg-black py-5 md:py-[50px]">
+        <div
+          class="w-[90%] lg:w-[85%] mx-auto flex flex-col md:flex-row justify-between"
+        >
           <div class="text-white flex flex-col justify-center text-left">
-            <h2 class="text-3xl font-bold">
-              Get matched with <br />
-              loan offers in 2 mins
+            <h2 class="text-3xl font-bold md:max-w-[320px]">
+              Get matched with loan offers in 2 mins
             </h2>
-            <p class="text-lg mt-4">
-              The fast, free way to comparison shop <br />
-              multiple lenders.
+            <p class="text-lg mt-4 md:max-w-[320px]">
+              The fast, free way to comparison shop multiple lenders.
             </p>
           </div>
-          <div class="bg-white rounded-md w-[360px] mx-auto p-4">
+          <div
+            class="bg-white rounded-md md:w-[360px] md:ml-auto p-4 mt-6 md:mt-0"
+          >
             <h4 class="text-xl font-semibold">I want to borrow</h4>
             <div>
               <p
@@ -64,7 +66,264 @@
           </div>
         </div>
       </section>
+      <!-- Our lenders include Section -->
+      <section class="bg-[#E3E3E3]">
+        <div class="w-[90%] lg:w-[85%] mx-auto pt-[36px] pb-[60px]">
+          <h4 class="text-xl font-semibold">Our lenders include:</h4>
+          <div
+            class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 items-center mx-10"
+          >
+            <img class="mt-6" src="/assets/images/lenders/1.png" alt="" />
+            <img class="mt-6" src="/assets/images/lenders/2.png" alt="" />
+            <img class="mt-6" src="/assets/images/lenders/3.png" alt="" />
+            <img class="mt-6" src="/assets/images/lenders/4.png" alt="" />
+            <img class="mt-6" src="/assets/images/lenders/5.png" alt="" />
+            <img class="mt-6" src="/assets/images/lenders/6.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Unknown Section -->
+      <section>
+        <div
+          class="w-[90%] lg:w-[85%] mx-auto my-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[70px]"
+        >
+          <div class="flex">
+            <div class="w-[80px] mr-5">
+              <img
+                class="h-[70px]"
+                src="/assets/images/lenders-icon/1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-bold">Personal loans 100% online</h4>
+              <p class="leading-relaxed mt-2">
+                Our online process is quick, secure, and hassle free. You can
+                submit your information from the privacy of your own home.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-[80px] mr-5">
+              <img
+                class="h-[70px]"
+                src="/assets/images/lenders-icon/3.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-bold">Loan amounts up to $20,000</h4>
+              <p class="leading-relaxed mt-2">
+                Loans range from $100 all the way up to $20,000. We provide
+                multiple options for you to choose from.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-[80px] mr-5">
+              <img
+                class="h-[70px]"
+                src="/assets/images/lenders-icon/1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-bold">Fast money in your account</h4>
+              <p class="leading-relaxed mt-2">
+                Funds can be deposited directly into your bank account as soon
+                as the next business day.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-[80px] mr-5">
+              <img
+                class="h-[70px]"
+                src="/assets/images/lenders-icon/4.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-bold">All credit types welcome</h4>
+              <p class="leading-relaxed mt-2">
+                You can request funds and view your loan offers no matter what
+                credit type you are.
+              </p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-[80px] mr-5">
+              <img
+                class="h-[70px]"
+                src="/assets/images/lenders-icon/5.png"
+                alt=""
+              />
+            </div>
+            <div class="flex-1">
+              <h4 class="text-xl font-bold">Safe & secure</h4>
+              <p class="leading-relaxed mt-2">
+                We use 256-bit SSL encryption to secure your information — the
+                same security standard as most banks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works section -->
+      <section class="my-14">
+        <div class="w-[90%] lg:w-[85%] mx-auto">
+          <h1 class="text-xl font-semibold md:text-center">How it works</h1>
+          <p class="md:text-center">
+            Here are a few simple steps to get started now
+          </p>
+          <div class="block md:flex justify-evenly gap-4 my-10 mx-5">
+            <div class="flex md:w-1/3">
+              <div class="flex flex-col items-center mr-4">
+                <div>
+                  <div
+                    class="w-12 h-12 rounded-full bg-[#E84241] text-white flex justify-center items-center"
+                  >
+                    <p class="text-[20px]">01</p>
+                  </div>
+                </div>
+                <div class="w-[2px] h-full bg-[#E84241] md:hidden"></div>
+              </div>
+              <div class="flex flex-col ml-4 w-4/5 lg:w-64 pb-5">
+                <p class="text-lg font-bold">Answer a few questions</p>
+                <p>
+                  Fill out a simple form, and we’ll check offers from top
+                  providers in seconds.
+                </p>
+              </div>
+            </div>
+            <div class="flex md:w-1/3">
+              <div class="flex flex-col items-center mr-4">
+                <div>
+                  <div
+                    class="w-12 h-12 rounded-full bg-[#E84241] text-white flex justify-center items-center"
+                  >
+                    <p class="text-[20px]">02</p>
+                  </div>
+                </div>
+                <div class="w-[2px] h-full bg-[#E84241] md:hidden"></div>
+              </div>
+              <div class="flex flex-col ml-4 w-4/5 lg:w-64 pb-5">
+                <p class="text-lg font-bold">Get matched with top providers</p>
+                <p>
+                  Based on the info you provide, we will match you with the
+                  appropriate offer to meet your needs.
+                </p>
+              </div>
+            </div>
+            <div class="flex md:w-1/3">
+              <div class="flex flex-col items-center mr-4">
+                <div>
+                  <div
+                    class="w-12 h-12 rounded-full bg-[#E84241] text-white flex justify-center items-center"
+                  >
+                    <p class="text-[20px]">03</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col ml-4 w-4/5 lg:w-64">
+                <p class="text-lg font-bold">Pick your offer</p>
+                <p>Choose the offer with the best terms for you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- What is PockBox Section -->
+      <section class="bg-[#D9D9D9]">
+        <div
+          class="w-[90%] lg:w-[85%] mx-auto py-[50px] text-left sm:text-center"
+        >
+          <h4 class="text-2xl font-semibold">What is PockBox?</h4>
+          <p class="mt-5 leading-relaxed max-w-[668px] mx-auto">
+            PockBox is not a lender. We provide a service that aims to quickly
+            connect customers with a lender that offers loans that may work for
+            them. Thousands of Americans across the country use personal loans
+            to help them pay for emergency expenses like medical expenses,
+            mechanic fees, and bills. Our simple online form does not contain
+            any long questions and can be completed online in just minutes.
+          </p>
+        </div>
+      </section>
+      <!-- FAQ -->
+      <section>
+        <div class="w-[90%] md:w-[502px] mx-auto pt-[50px] pb-[60px]">
+          <h2 class="text-2xl font-semibold text-center">FAQ</h2>
+          <div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">
+                What is a personal loan and what can I use it for?
+              </p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">
+                How do you protect my privacy and personal information?
+              </p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">Are there any fees?</p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">
+                How fast can I get the money?
+              </p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">
+                Do I have to go into a store or wait in line?
+              </p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+            <div class="flex items-center justify-between mt-5">
+              <p class="max-w-[235px] font-semibold">
+                Do I qualify for this personal loan?
+              </p>
+              <p class="text-3xl font-bold">+</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- Footer -->
+    <footer class="bg-black text-white">
+      <div
+        class="w-[90%] lg:w-[85%] mx-auto pt-[52px] pb-[49px] grid grid-cols-1 md:grid-cols-2 gap-8"
+      >
+        <div class="grid grid-cols-2 gap-8">
+          <div>
+            <p>Rates</p>
+            <p class="mt-2">How it works</p>
+            <p class="mt-2">Terms of service</p>
+            <p class="mt-2">Privacy policy</p>
+          </div>
+          <div>
+            <p>About us</p>
+            <p class="mt-2">FAQ</p>
+            <p class="mt-2">Scam advisory</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="mx-auto md:mx-0">
+            <img src="/assets/images/logo.png" alt="" />
+          </div>
+          <div class="text-center">
+            <p>
+              Copyright 2018 - 2023, Broderick Street Partners, LLC All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- JAVASCRIPT -->
     <script src="./assets/js/app.js"></script>
   </body>
