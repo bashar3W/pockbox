@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pockbox - Website</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="./assets/styles/loanOffer.css" />
+    <!-- google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="py-7">
+      <nav class="container header__nav">
+        <a href="index.html">
+          <img
+            src="./assets/images/logo.png"
+            alt=""
+            class="w-[134px] h-[45px]"
+          />
+        </a>
+      </nav>
+    </header>
+    <!-- section start -->
+    <main>
+      <section>
+        <div class="container">
+          <div class="form--container">
+            <form action="" id="multi-step-form">
+              <ul class="progress-bar">
+                <li id="step-1" class="active"></li>
+                <li id="step-2"></li>
+                <li id="step-3"></li>
+                <li id="step-4"></li>
+                <li id="step-5"></li>
+              </ul>
+              <!-- ============== Step Group 1 ============== -->
+              <div id="stepGroup-1">
+                <h3 class="form--title">What’s the money for?</h3>
+                <div class="options">
+                  <p class="money stepGroup__item">
+                    <img src="./assets/images/money-icon/1.svg" alt="" />
+                    <span> Debt consolidation </span>
+                  </p>
+                  <p class="money stepGroup__item">
+                    <img src="./assets/images/money-icon/2.svg" alt="" />
+                    <span> Pay off credit cards </span>
+                  </p>
+                  <p class="money stepGroup__item home_imrpv">
+                    <img src="./assets/images/money-icon/3.svg" alt="" />
+                    <span> Home improvement </span>
+                  </p>
+                  <p class="money stepGroup__item">
+                    <img src="./assets/images/money-icon/4.svg" alt="" />
+                    <span> Large purchase </span>
+                  </p>
+                  <p class="money stepGroup__item">
+                    <img
+                      style="height: auto"
+                      src="./assets/images/money-icon/5.svg"
+                      alt=""
+                    />
+                    <span> Other </span>
+                  </p>
+                </div>
+              </div>
+              <!-- ============== Step Group 2 ============== -->
+              <div id="stepGroup-2">
+                <h3 class="form--title">How’s your credit score?</h3>
+                <div class="options">
+                  <p class="group2 stepGroup__item">
+                    <img src="./assets/images/credit-icon/1.svg" alt="" />
+                    <span> Excellent (720+) </span>
+                  </p>
+                  <p class="group2 stepGroup__item">
+                    <img src="./assets/images/credit-icon/2.svg" alt="" />
+                    <span> Good (660 - 719)</span>
+                  </p>
+                  <p class="group2 stepGroup__item home_imrpv">
+                    <img src="./assets/images/credit-icon/3.svg" alt="" />
+                    <span> Fair (620 - 659) </span>
+                  </p>
+                  <p class="group2 stepGroup__item">
+                    <img src="./assets/images/credit-icon/4.svg" alt="" />
+                    <span> Poor (<620) </span>
+                  </p>
+                  <p class="group2 stepGroup__item">
+                    <img
+                      style="height: auto"
+                      src="./assets/images/credit-icon/5.svg"
+                      alt=""
+                    />
+                    <span> Limited / No history </span>
+                  </p>
+                </div>
+              </div>
+              <!-- ============== Step Group 3 ============== -->
+              <div id="stepGroup-3">
+                <h3 class="form--title">What’s your name?</h3>
+                <div class="field">
+                  <div class="input_group">
+                    <label for="fname">First Name</label>
+                    <input type="text" />
+                  </div>
+                  <div class="input_group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" />
+                  </div>
+                  <div class="input_group btn_field">
+                    <button type="submit" class="next-btn" id="step-next-1">
+                      Next
+                    </button>
+                  </div>
+                  <p class="form_footer">
+                    <img src="./assets/images/lock.png" alt="" />
+                    <span>Site is encrypted to protect your data.</span>
+                  </p>
+                </div>
+              </div>
+              <!-- ============== Step Group 4 ============== -->
+              <div id="stepGroup-4">
+                <h3 class="form--title">What’s your ZIP code?</h3>
+                <div class="field">
+                  <div class="input_group">
+                    <label for="zip">ZIP Code</label>
+                    <input type="text" />
+                  </div>
+                  <div class="input_group btn_field">
+                    <button type="submit" class="next-btn" id="step-next-2">
+                      Next
+                    </button>
+                  </div>
+                  <p class="form_footer">
+                    <img src="./assets/images/lock.png" alt="" />
+                    <span>Site is encrypted to protect your data.</span>
+                  </p>
+                </div>
+              </div>
+              <!-- ============== Step Group 5 ============== -->
+              <div id="stepGroup-5">
+                <h3 class="form--title">What’s your email address?</h3>
+                <p class="subTitle">
+                  You'll use this to receive details about your loan
+                </p>
+                <div class="field">
+                  <div class="input_group">
+                    <label for="email">Email</label>
+                    <input type="text" />
+                  </div>
+                  <div class="input_group">
+                    <p>
+                      By checking this box, I represent and acknowledge that I
+                      have clicked on, read and agree to Terms of Service and
+                      Privacy Policy
+                    </p>
+                  </div>
+                  <div class="input_group checkbox_group">
+                    <input type="checkbox" class="checkbox" />
+                    <label for="chck"
+                      >Terms of Service and Privacy Policy</label
+                    >
+                  </div>
+
+                  <div class="input_group btn_field email_btn">
+                    <button class="next-btn" id="step-next-3" type="submit">
+                      Next
+                    </button>
+                  </div>
+                  <p class="form_footer">
+                    <img src="./assets/images/lock.png" alt="" />
+                    <span>Site is encrypted to protect your data.</span>
+                  </p>
+                </div>
+              </div>
+              <!-- ============== Step Group 6 ============== -->
+              <div id="stepGroup-6">
+                <div class="stepGroup-6">
+                  <div class="animate_icon">
+                    <img src="./assets/images/logo-short.png" alt="" />
+                    <h2 class="title">Matching you with lenders...</h2>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- JAVASCRIPT -->
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

@@ -25,6 +25,18 @@
         max-height: 300px;
         display: block;
       }
+      .faq #plus-icon {
+        display: block;
+      }
+      .faq #minus-icon {
+        display: none;
+      }
+      .faq.active #plus-icon {
+        display: none;
+      }
+      .faq.active #minus-icon {
+        display: block;
+      }
     </style>
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -60,26 +72,34 @@
           >
             <h4 class="text-xl font-semibold">I want to borrow</h4>
             <div>
-              <p
-                class="bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
-              >
-                Quick $100
-              </p>
-              <p
-                class="bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
-              >
-                $100 - $1,500
-              </p>
-              <p
-                class="bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
-              >
-                $1,500 - $5,000
-              </p>
-              <p
-                class="bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
-              >
-                $5,000+
-              </p>
+              <a href="loanOffer.html">
+                <p
+                  class="borrow bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
+                >
+                  Quick $100
+                </p>
+              </a>
+              <a href="loanOffer.html">
+                <p
+                  class="borrow bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
+                >
+                  $100 - $1,500
+                </p>
+              </a>
+              <a href="loanOffer.html">
+                <p
+                  class="borrow bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
+                >
+                  $1,500 - $5,000
+                </p>
+              </a>
+              <a href="loanOffer.html">
+                <p
+                  class="borrow bg-[#F2F2F2] py-4 text-center rounded-lg font-semibold mt-4"
+                >
+                  $5,000+
+                </p>
+              </a>
             </div>
           </div>
         </div>
@@ -284,6 +304,12 @@
                 >
                   +
                 </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
+                </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
                 <p>
@@ -304,6 +330,12 @@
                 >
                   +
                 </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
+                </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
                 <p>
@@ -321,6 +353,12 @@
                   id="plus-icon"
                 >
                   +
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
                 </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
@@ -342,6 +380,12 @@
                 >
                   +
                 </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
+                </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
                 <p>
@@ -362,6 +406,12 @@
                 >
                   +
                 </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
+                </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
                 <p>
@@ -381,6 +431,12 @@
                   id="plus-icon"
                 >
                   +
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="minus-icon"
+                >
+                  -
                 </p>
               </div>
               <div class="ans mt-1 max-h-0 hidden">
