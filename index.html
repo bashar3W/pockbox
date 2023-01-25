@@ -17,6 +17,15 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+    <style>
+      .ans {
+        transition: max-height 1.4s ease;
+      }
+      .faq.active .ans {
+        max-height: 300px;
+        display: block;
+      }
+    </style>
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -264,39 +273,123 @@
         <div class="w-[90%] md:w-[502px] mx-auto pt-[50px] pb-[60px]">
           <h2 class="text-2xl font-semibold text-center">FAQ</h2>
           <div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">
-                What is a personal loan and what can I use it for?
-              </p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="ques flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">
+                  What is a personal loan and what can I use it for?
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">
-                How do you protect my privacy and personal information?
-              </p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">
+                  How do you protect my privacy and personal information?
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">Are there any fees?</p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">Are there any fees?</p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">
-                How fast can I get the money?
-              </p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">
+                  How fast can I get the money?
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">
-                Do I have to go into a store or wait in line?
-              </p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">
+                  Do I have to go into a store or wait in line?
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
-            <div class="flex items-center justify-between mt-5">
-              <p class="max-w-[235px] font-semibold">
-                Do I qualify for this personal loan?
-              </p>
-              <p class="text-3xl font-bold">+</p>
+            <div class="faq">
+              <div class="flex items-center justify-between mt-5">
+                <p class="max-w-[235px] font-semibold">
+                  Do I qualify for this personal loan?
+                </p>
+                <p
+                  class="text-3xl font-bold cursor-pointer select-none"
+                  id="plus-icon"
+                >
+                  +
+                </p>
+              </div>
+              <div class="ans mt-1 max-h-0 hidden">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat, sit omnis. Quos temporibus quam explicabo beatae
+                  consequuntur veniam voluptates omnis!
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -334,6 +427,6 @@
       </div>
     </footer>
     <!-- JAVASCRIPT -->
-    <script src="../assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>
