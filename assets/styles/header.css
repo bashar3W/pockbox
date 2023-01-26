@@ -25,6 +25,34 @@ header .header__nav {
   align-items: center;
   overflow: hidden;
 }
+@media only screen and (max-width: 480px) {
+  header .header__logo img {
+    width: 100px;
+  }
+}
+
+header .header__left__content {
+  display: flex;
+  align-items: center;
+}
+header .header__left__content a {
+  padding: 10px 15px;
+  background: #e84241;
+  border-radius: 100px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  margin-right: 10px;
+  display: none;
+}
+@media only screen and (max-width: 1100px) {
+  header .header__left__content a {
+    display: block;
+  }
+}
 header .nav__toggler--icon {
   font-size: 30px;
   font-weight: 700;
