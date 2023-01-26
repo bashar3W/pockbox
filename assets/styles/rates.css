@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+/* global css */
+.container {
+  width: 90%;
+  margin: auto;
+  z-index: 999;
+}
+main {
+  margin-top: 100px;
+}
+/* About section css start */
+
+.page__section {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.page__section .section__title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 20px;
+}
+.page__section .section__content {
+  color: #000;
+  margin-top: 20px;
+}
+.page__section .section__content .section__content--para {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.page__section .section__content .section__table {
+  overflow-x: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+tr:last-child {
+  border-bottom: none;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+}
+.bottom__section {
+  text-align: center;
+  margin-top: 45px;
+}
+.bottom__section h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #3c3c3c;
+  margin-bottom: 10px;
+}
+.bottom__section button {
+  padding: 10px 30px;
+  width: 233px;
+  background: #e84241;
+  border-radius: 100px;
+  margin: auto;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
