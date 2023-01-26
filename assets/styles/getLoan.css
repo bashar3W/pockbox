@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+/* global css */
+.container {
+  width: 90%;
+  margin: auto;
+  z-index: 999;
+}
+main {
+  margin-top: 100px;
+}
+/* Top page css start */
+.page__section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.page__section .section__title {
+  text-align: center;
+  /* width: 750px; */
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  .page__section .section__title {
+    text-align: left;
+  }
+}
+.page__section .section__title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+.page__section .section__title p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+/* Item page section css start */
+.page__item__section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.page__item__section .item__section__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+.item__section__wrapper .section__item__card {
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+.item__section__wrapper .section__item__card:hover {
+  transform: translateY(-10px);
+}
+.section__item__card .img__area {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  /* width: 94px; */
+  /* height: 30px; */
+}
+.section__item__card .img__area img {
+  /* margin-bottom: 30px; */
+}
+.section__item__card .section__item__title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+.section__item__card .section__item_lists {
+  margin-bottom: 15px;
+}
+.section__item__card .section__item_lists ul {
+  margin-left: 20px;
+}
+.section__item__card .section__item_lists ul li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+}
+.section__item__card .section__item__alert {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.section__item__card .section__item__alert img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.section__item__card .section__item__alert p {
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+}
+.section__item__card .section__item__btn button {
+  width: 100%;
+  padding: 15px 30px;
+  background: #e84241;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.section__item__card .section__item__btn button:hover {
+  opacity: 0.9;
+}
+/* personal page css start */
+.page__personal__section {
+  /* padding-top: 80px; */
+  padding-bottom: 80px;
+}
+.page__personal__section .title {
+  text-align: center;
+  /* max-width: 60%; */
+  margin: auto;
+}
+.page__personal__section .title h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.page__personal__section .title p {
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+@media only screen and (max-width: 768px) {
+  .page__personal__section .title {
+    text-align: left;
+  }
+}

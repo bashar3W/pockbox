@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+/* global css */
+.container {
+  width: 90%;
+  margin: auto;
+  z-index: 999;
+}
+main {
+  margin-top: 100px;
+}
+/* About section css start */
+
+.page__section {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.page__section .section__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 20px;
+}
+.page__section .section__content {
+  color: #000;
+  margin-top: 20px;
+}
+.page__section .section__content .section__content--para {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.section__content__para--link {
+  color: #e84241;
+  text-decoration: none;
+}

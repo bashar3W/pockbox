@@ -7,8 +7,10 @@
 .container {
   width: 90%;
   margin: auto;
-  position: relative;
   z-index: 999;
+}
+main {
+  margin-top: 100px;
 }
 /* page css */
 header {

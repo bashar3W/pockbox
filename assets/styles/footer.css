@@ -1,0 +1,53 @@
+/* Footer css */
+.section__footer {
+  background: #000;
+  color: #fff;
+}
+.section__footer .section__grid {
+  padding-top: 52px;
+  padding-bottom: 49px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8;
+}
+@media only screen and (max-width: 1024px) {
+  .section__footer .section__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.section__footer .section__menus {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.section__footer .section__menus .menu {
+  margin-top: 8px;
+}
+.section__footer .section__menus .menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.section__footer .section__menus .menu a:hover {
+  color: #e84241;
+}
+.section__footer .section__logo--area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+/* .section__footer .section__logo--area .section__logo {
+    margin: auto;
+  } */
+.section__footer .section__logo--area .section__copyright {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .section__footer .section__logo--area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section__footer .section__logo--area .section__logo {
+    margin: auto;
+  }
+}

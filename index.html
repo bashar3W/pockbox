@@ -10,6 +10,7 @@
       type="image/x-icon"
     />
     <title>Pockbox - Website</title>
+    <link rel="stylesheet" href="./assets/styles/header.css" />
     <!-- google font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,6 +19,9 @@
       rel="stylesheet"
     />
     <style>
+      main {
+        margin-top: 100px;
+      }
       .ans {
         transition: max-height 1.4s ease;
       }
@@ -43,16 +47,53 @@
   </head>
   <body class="bg-white" style="font-family: 'Nunito', sans-serif">
     <!-- header -->
-    <header class="py-7">
-      <nav class="w-[90%] lg:w-[85%] mx-auto">
-        <a href="index.html">
-          <img
-            src="./assets/images/logo.png"
-            alt=""
-            class="w-[134px] h-[45px]"
-          />
-        </a>
-      </nav>
+    <header class="py-7" id="header">
+      <div id="container">
+        <nav class="header__nav">
+          <a href="index.html">
+            <img
+              src="./assets/images/logo.png"
+              alt=""
+              class="w-[134px] h-[45px]"
+            />
+          </a>
+          <div class="nav__toggler--icon" id="toggler__icon">
+            <span>&equiv;</span>
+          </div>
+          <ul class="nav__lists" id="nav__list">
+            <li class="close__btn" id="close__btn">
+              <span>&times;</span>
+            </li>
+            <li class="nav__lists--list">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="about.html" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="getLoad.html" class="nav__link">Get Loan</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="rates.html" class="nav__link">Rates</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="works.html" class="nav__link">How it works</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="termsServices.html" class="nav__link">Terms Services</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="privacyPolicy.html" class="nav__link">Privacy Policy</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="faq.html" class="nav__link">FAQ</a>
+            </li>
+            <li class="nav__lists--list">
+              <a href="scamAdvisory.html" class="nav__link">Scam Advisory</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="bg-black py-5 md:py-[50px]">

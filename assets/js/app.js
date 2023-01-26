@@ -65,10 +65,23 @@ window.addEventListener("load", () => {
   });
   // Step Next 3
   const StepNext3 = document.getElementById("step-next-3");
-  const progressBar = document.querySelector(".progress-bar")
+  const progressBar = document.querySelector(".progress-bar");
   StepNext3.addEventListener("click", () => {
     progressBar.style.display = "none";
     stepGroup5.style.display = "none";
     stepGroup6.style.display = "block";
   });
+ 
+
 });
+  // mobile menu
+  const icon = document.getElementById("toggler__icon");
+  const menu = document.getElementById("nav__list");
+  const closeBtn = document.getElementById("close__btn")
+  icon.addEventListener("click", () => {
+    console.log("click")
+    menu.classList.toggle("active");
+  });
+  closeBtn.addEventListener("click", ()=>{
+    menu.classList.remove("active")
+  })
