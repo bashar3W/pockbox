@@ -1,15 +1,10 @@
 // FAQ Functionality
 const faqs = document.querySelectorAll(".faq");
-const plusIcon = document.getElementById("plus-icon");
-for (const faq of faqs) {
-  faq.onclick = activeLi;
-}
-
-function activeLi() {
-  const faq = Array.from(faqs);
-  faq.forEach((e) => e.classList.remove("active"));
-  this.classList.add("active");
-}
+faqs.forEach((e)=>{
+  e.addEventListener("click",()=>{
+    e.classList.toggle("active")
+  })
+})
 
 // navigate "Get loan Offer" page
 window.addEventListener("load", () => {

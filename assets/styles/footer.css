@@ -10,6 +10,22 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 8;
 }
+.section__footer .footer_para {
+  padding-top: 29px;
+  padding-bottom: 49px;
+}
+.section__footer .footer_para p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #f2f2f2;
+  line-height: 20px;
+}
+.section__footer .footer_para p a {
+  color: #e84241 !important;
+}
+.section__footer .footer_para p span {
+  font-weight: 600;
+}
 @media only screen and (max-width: 1024px) {
   .section__footer .section__grid {
     grid-template-columns: repeat(1, 1fr);
