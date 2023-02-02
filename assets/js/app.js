@@ -75,7 +75,7 @@ window.addEventListener("load", () => {
 });
 // page redirect
 if(location.pathname.includes("ratesfees")){
-  location.replace('http://127.0.0.1:5500/pockbox/index.html')
+  location.replace('index.html')
 }
 console.log(location.pathname)
   // mobile menu
