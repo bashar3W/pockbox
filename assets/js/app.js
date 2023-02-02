@@ -77,7 +77,7 @@ link.forEach((l)=>{
 })
 // maigrate new site
 const migrate = ['howitworks', 'terms','privacypolicy','aboutus'];
-link.forEach((l)=>{
+migrate.forEach((l)=>{
   if(location.pathname.includes(l)){
   location.href = `https://pockbox.com/${l}`
 }
