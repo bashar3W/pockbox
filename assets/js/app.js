@@ -75,6 +75,14 @@ link.forEach((l)=>{
   location.replace('index.html')
 }
 })
+// maigrate new site
+const migrate = ['howitworks', 'terms','privacypolicy','aboutus'];
+link.forEach((l)=>{
+  if(location.pathname.includes(l)){
+  location.replace(`https://pockbox.com/${l}`)
+}
+})
+
 
   // mobile menu
   const icon = document.getElementById("toggler__icon");
