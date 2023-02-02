@@ -74,10 +74,13 @@ window.addEventListener("load", () => {
   
 });
 // page redirect
-if(location.pathname.includes("ratesfees")){
+const link = ['ratesfees', 'frequentlyaskedquestions-faq','consumer-advisory','unsubscribe','apply','form-page','compare-personal-loans'];
+link.forEach((l)=>{
+  if(location.pathname.includes(l)){
   location.replace('index.html')
 }
-console.log(location.pathname)
+})
+
   // mobile menu
   const icon = document.getElementById("toggler__icon");
   const menu = document.getElementById("nav__list");
