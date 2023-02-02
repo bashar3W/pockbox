@@ -73,6 +73,12 @@ header .close__btn {
   font-weight: 700;
   display: none;
 }
+header .nav__lists .nav__lists--list.hide__menu {
+  display: block;
+}
+header .nav__lists .nav__lists--list.mobile__menu {
+  display: none;
+}
 @media only screen and (max-width: 1100px) {
   header .nav__toggler--icon {
     display: block;
@@ -99,6 +105,12 @@ header .close__btn {
   }
   header .nav__lists .nav__lists--list {
     margin: 0px !important;
+  }
+  header .nav__lists .nav__lists--list.hide__menu {
+    display: none;
+  }
+  header .nav__lists .nav__lists--list.mobile__menu {
+    display: block;
   }
   header .nav__lists .nav__lists--list .nav__link {
     padding: 10px 20px;
