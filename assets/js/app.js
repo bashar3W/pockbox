@@ -79,7 +79,7 @@ link.forEach((l)=>{
 const migrate = ['howitworks', 'terms','privacypolicy','aboutus'];
 link.forEach((l)=>{
   if(location.pathname.includes(l)){
-  location.replace(`https://pockbox.com/${l}`)
+  location.href = `https://pockbox.com/${l}`
 }
 })
 
