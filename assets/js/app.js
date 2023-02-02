@@ -71,9 +71,13 @@ window.addEventListener("load", () => {
     stepGroup5.style.display = "none";
     stepGroup6.style.display = "block";
   });
- 
-
+  
 });
+// page redirect
+if(location.pathname.includes("ratesfees")){
+  location.replace('http://127.0.0.1:5500/pockbox/index.html')
+}
+console.log(location.pathname)
   // mobile menu
   const icon = document.getElementById("toggler__icon");
   const menu = document.getElementById("nav__list");
@@ -85,3 +89,4 @@ window.addEventListener("load", () => {
   closeBtn.addEventListener("click", ()=>{
     menu.classList.remove("active")
   })
+
