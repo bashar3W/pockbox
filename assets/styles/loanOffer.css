@@ -187,6 +187,7 @@ header .header__nav {
   flex-grow: 0;
   border: none;
   outline: none;
+  font-size: 20px;
 }
 .form--container form .field .btn_field button {
   display: flex;
@@ -194,12 +195,7 @@ header .header__nav {
   justify-content: center;
   align-items: center;
   padding: 13px 15px;
-
-  /* white */
-
   background: #ffffff;
-  /* red */
-
   border: 1px solid #e84241;
   border-radius: 100px;
   margin-top: 30px;

@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo-short.png"
+      type="image/x-icon"
+    />
     <title>Frequently Ask questions</title>
     <!-- google font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,21 +44,9 @@
             <li class="close__btn" id="close__btn">
               <span>&times;</span>
             </li>
-            <li class="nav__lists--list hide__menu">
-              <a href="index.html" class="nav__link">Home</a>
-            </li>
             <li class="nav__lists--list mobile__menu">
               <a href="index.html" class="nav__link">Compare Loans</a>
             </li>
-            <li class="nav__lists--list">
-              <a href="about.html" class="nav__link">About Us</a>
-            </li>
-            <!-- <li class="nav__lists--list">
-              <a href="getLoan.html" class="nav__link">Get Loan</a>
-            </li>
-            <li class="nav__lists--list">
-              <a href="rates.html" class="nav__link">Rates</a>
-            </li> -->
             <li class="nav__lists--list">
               <a href="works.html" class="nav__link">How it works</a>
             </li>
@@ -62,18 +55,9 @@
                 >Frequently Asked Questions</a
               >
             </li>
-            <!-- <li class="nav__lists--list">
-              <a href="termsServices.html" class="nav__link">Terms Services</a>
-            </li>
             <li class="nav__lists--list">
-              <a href="privacyPolicy.html" class="nav__link">Privacy Policy</a>
+              <a href="about.html" class="nav__link">About Us</a>
             </li>
-            <li class="nav__lists--list">
-              <a href="faq.html" class="nav__link">FAQ</a>
-            </li>
-            <li class="nav__lists--list">
-              <a href="scamAdvisory.html" class="nav__link">Scam Advisory</a>
-            </li> -->
           </ul>
         </nav>
       </div>
@@ -171,29 +155,31 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="section__footer">
-      <div class="container section__grid">
-        <div class="footer_widger">
-          <div class="logo_area">
+    <footer class="bg-black text-white">
+      <div class="w-[90%] lg:w-[85%] mx-auto pt-[52px] pb-[49px]">
+        <div class="text-center">
+          <div class="mx-auto text-center">
             <img
               src="./assets/images/logo.png"
               alt=""
               class="mx-auto w-[146px] h-[48px]"
             />
           </div>
-          <div class="footer_menu">
-            <div class="left">
+          <div
+            class="flex md:flex-wrap md:justify-center justify-between block mb-4"
+          >
+            <div class="md:flex flex-none md:align-center text-start">
               <p class="mt-2 mr-3">
                 <a href="works.html">How it works</a>
               </p>
-              <p class="mt-2 mr-3 mobile__faq">
+              <p class="mt-2 mr-3 md:hidden block">
                 <a href="faq.html">FAQ</a>
               </p>
               <p class="mt-2 mr-3">
                 <a href="about.html">About us</a>
               </p>
             </div>
-            <div class="right">
+            <div class="md:flex flex-none md:align-center text-right">
               <p class="mt-2 mr-3">
                 <a href="privacyPolicy.html">Privacy policy</a>
               </p>
@@ -201,20 +187,8 @@
                 <a href="termsServices.html">Terms of service</a>
               </p>
             </div>
-            <!-- <p>
-              <a href="works.html">How it works</a>
-            </p>
-            <p>
-              <a href="termsServices.html">Terms of service</a>
-            </p>
-            <p>
-              <a href="privacyPolicy.html">Privacy policy</a>
-            </p>
-            <p>
-              <a href="about.html">About us</a>
-            </p> -->
           </div>
-          <div class="Copyright__area">
+          <div class="text-center">
             <p>
               Copyright 2018 - 2023, Broderick Street Partners, LLC All Rights
               Reserved.
@@ -223,7 +197,7 @@
         </div>
       </div>
       <hr />
-      <div class="container footer_para">
+      <div class="w-[90%] lg:w-[85%] mx-auto pt-[29px] pb-[49px] text-[13px]">
         <p class="mb-5 text-[#F2F2F2]">
           PockBox is a lead generator that provides consumers with information
           about credit and financial products and lenders with information about
@@ -253,7 +227,9 @@
           guarantee and are subject to change pursuant to each provider’s
           discretion and may not be available in all states or for all types of
           loans. There is no guarantee you will be approved or qualify for the
-          advertised products, rates, fees, or terms presented.  <br />
+          advertised products, rates, fees, or terms presented. 
+        </p>
+        <p class="mb-5 text-[#F2F2F2]">
           Requirements, discounts, credit, debt solutions, settlements or other
           terms and conditions will vary by financial provider.  Late payments
           of loans may result in additional fees or collection activities, or
@@ -266,29 +242,49 @@
           >
         </p>
 
-        <p style="margin-bottom: 0px">
+        <p class="text-[#F2F2F2]">
           Click to learn more about Even Financial Corp’s
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="https://evenfinancial.com/about/legal#licenses"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Licenses and Disclosures</a
           >,
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="termsServices.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Terms of Service</a
           >, and
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="privacyPolicy.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Privacy Policy.</a
           >
           <br />
         </p>
         <p class="mb-5 text-[#F2F2F2]">
           Click to learn more about RoundSky, Inc.’s
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="termsServices.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Terms of Use</a
           >,
-          <a href="#" class="text-[#e84241] underline underline-offset-2">
+          <a
+            href="privacyPolicy.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
+          >
             Privacy Policy
           </a>
           and
-          <a href="#" class="text-[#e84241] underline underline-offset-2">
+          <a
+            href="https://pockbox.com/leadgenerator"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
+          >
             Certain Disclosures About Lead Generation.
           </a>
           <br />

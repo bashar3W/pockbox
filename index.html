@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="./assets/images/logo.png"
+      href="./assets/images/logo-short.png"
       type="image/x-icon"
     />
     <title>Pockbox - Website</title>
@@ -32,6 +32,7 @@
       .faq.active .ans {
         max-height: 300px;
         display: block;
+        margin-top: 20px !important;
       }
       .faq #plus-icon {
         display: block;
@@ -68,21 +69,9 @@
             <li class="close__btn" id="close__btn">
               <span>&times;</span>
             </li>
-            <li class="nav__lists--list hide__menu">
-              <a href="index.html" class="nav__link">Home</a>
-            </li>
             <li class="nav__lists--list mobile__menu">
               <a href="index.html" class="nav__link">Compare Loans</a>
             </li>
-            <li class="nav__lists--list">
-              <a href="about.html" class="nav__link">About Us</a>
-            </li>
-            <!-- <li class="nav__lists--list">
-              <a href="getLoan.html" class="nav__link">Get Loan</a>
-            </li>
-            <li class="nav__lists--list">
-              <a href="rates.html" class="nav__link">Rates</a>
-            </li> -->
             <li class="nav__lists--list">
               <a href="works.html" class="nav__link">How it works</a>
             </li>
@@ -91,18 +80,9 @@
                 >Frequently Asked Questions</a
               >
             </li>
-            <!-- <li class="nav__lists--list">
-              <a href="termsServices.html" class="nav__link">Terms Services</a>
-            </li>
             <li class="nav__lists--list">
-              <a href="privacyPolicy.html" class="nav__link">Privacy Policy</a>
+              <a href="about.html" class="nav__link">About Us</a>
             </li>
-            <li class="nav__lists--list">
-              <a href="faq.html" class="nav__link">FAQ</a>
-            </li>
-            <li class="nav__lists--list">
-              <a href="scamAdvisory.html" class="nav__link">Scam Advisory</a>
-            </li> -->
           </ul>
         </nav>
       </div>
@@ -163,39 +143,45 @@
       <section class="bg-[#E3E3E3]">
         <div class="w-[90%] lg:w-[85%] mx-auto pt-[36px] pb-[60px]">
           <h4 class="text-xl font-semibold">Our lenders include:</h4>
-          <div
-            class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 items-center mx-0 md:mx-10"
-          >
-            <img
-              class="mt-6 w-[60px] h-[35px]"
-              src="./assets/images/lenders/1.png"
-              alt=""
-            />
-            <img
-              class="mt-6 w-[109px] h-[16px]"
-              src="./assets/images/lenders/2.png"
-              alt=""
-            />
-            <img
-              class="mt-6 w-[109px] h-[15px]"
-              src="./assets/images/lenders/3.png"
-              alt=""
-            />
-            <img
-              class="mt-6 w-[98px] h-[24px]"
-              src="./assets/images/lenders/4.png"
-              alt=""
-            />
-            <img
-              class="mt-6 w-[88px] h-[20px]"
-              src="./assets/images/lenders/5.png"
-              alt=""
-            />
-            <img
-              class="mt-6 w-[105px] h-[17px]"
-              src="./assets/images/lenders/6.png"
-              alt=""
-            />
+          <div class="flex-none md:flex">
+            <div
+              class="w-full grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-x-[5px] items-center"
+            >
+              <img
+                class="mt-6 w-[60px] h-[35px]"
+                src="./assets/images/lenders/1.svg"
+                alt=""
+              />
+              <img
+                class="mt-6 w-[109px] h-[16px] ml-[-10px]"
+                src="./assets/images/lenders/2.svg"
+                alt=""
+              />
+              <img
+                class="mt-6 w-[109px] h-[15px]"
+                src="./assets/images/lenders/3.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-full grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-x-[10px] items-center"
+            >
+              <img
+                class="mt-6 w-[98px] h-[24px]"
+                src="./assets/images/lenders/4.svg"
+                alt=""
+              />
+              <img
+                class="mt-6 w-[88px] h-[20px]"
+                src="./assets/images/lenders/5.svg"
+                alt=""
+              />
+              <img
+                class="mt-6 w-[105px] h-[17px]"
+                src="./assets/images/lenders/6.svg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -204,84 +190,98 @@
         <div
           class="w-[90%] lg:w-[85%] mx-auto my-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[70px]"
         >
-          <div class="flex">
-            <div class="w-[80px] mr-5">
-              <img
-                class="h-[70px]"
-                src="./assets/images/lenders-icon/1.png"
-                alt=""
-              />
-            </div>
-            <div class="flex-1">
-              <h4 class="text-xl font-bold">Personal loans 100% online</h4>
-              <p class="leading-relaxed mt-2">
-                Our online process is quick, secure, and hassle free. You can
-                submit your information from the privacy of your own home.
-              </p>
-            </div>
-          </div>
-          <div class="flex">
-            <div class="w-[80px] mr-5">
-              <img
-                class="h-[70px]"
-                src="./assets/images/lenders-icon/3.png"
-                alt=""
-              />
-            </div>
-            <div class="flex-1">
-              <h4 class="text-xl font-bold">Loan amounts up to $20,000</h4>
-              <p class="leading-relaxed mt-2">
-                Loans range from $100 all the way up to $20,000. We provide
-                multiple options for you to choose from.
-              </p>
+          <div>
+            <div class="flex">
+              <div class="w-[80px] mr-5">
+                <img
+                  class="h-[72px]"
+                  src="./assets/images/lenders-icon/1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xl font-bold">Personal loans 100% online</h4>
+                <p class="leading-relaxed mt-2">
+                  Our online process is quick, secure, and hassle free. You can
+                  submit your information from the privacy of your own home.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="flex">
-            <div class="w-[80px] mr-5">
-              <img
-                class="h-[70px]"
-                src="./assets/images/lenders-icon/1.png"
-                alt=""
-              />
-            </div>
-            <div class="flex-1">
-              <h4 class="text-xl font-bold">Fast money in your account</h4>
-              <p class="leading-relaxed mt-2">
-                Funds can be deposited directly into your bank account as soon
-                as the next business day.
-              </p>
-            </div>
-          </div>
-          <div class="flex">
-            <div class="w-[80px] mr-5">
-              <img
-                class="h-[70px]"
-                src="./assets/images/lenders-icon/4.png"
-                alt=""
-              />
-            </div>
-            <div class="flex-1">
-              <h4 class="text-xl font-bold">All credit types welcome</h4>
-              <p class="leading-relaxed mt-2">
-                You can request funds and view your loan offers no matter what
-                credit type you are.
-              </p>
+          <div>
+            <div class="flex">
+              <div class="w-[80px] mr-5">
+                <img
+                  class="h-[93px] w-[80px]"
+                  src="./assets/images/lenders-icon/2.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xl font-bold">Loan amounts up to $20,000</h4>
+                <p class="leading-relaxed mt-2">
+                  Loans range from $100 all the way up to $20,000. We provide
+                  multiple options for you to choose from.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="flex">
-            <div class="w-[80px] mr-5">
-              <img
-                class="h-[70px]"
-                src="./assets/images/lenders-icon/5.png"
-                alt=""
-              />
+          <div>
+            <div class="flex">
+              <div class="w-[80px] mr-5">
+                <img
+                  class="h-[88px]"
+                  src="./assets/images/lenders-icon/3.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xl font-bold">All credit types welcome</h4>
+                <p class="leading-relaxed mt-2">
+                  You can request funds and view your loan offers no matter what
+                  credit type you are.
+                </p>
+              </div>
             </div>
-            <div class="flex-1">
-              <h4 class="text-xl font-bold">Safe & secure</h4>
-              <p class="leading-relaxed mt-2">
-                We use 256-bit SSL encryption to secure your information — the
-                same security standard as most banks.
-              </p>
+          </div>
+        </div>
+        <div
+          class="w-[90%] lg:w-[85%] mx-auto my-[50px] flex-none md:flex md:justify-center gap-[70px]"
+        >
+          <div class="w-[100%] md:w-[50%] md:mb-0 mb-[50px]">
+            <div class="flex">
+              <div class="w-[80px] mr-5">
+                <img
+                  class="h-[111px] w-[80px]"
+                  src="./assets/images/lenders-icon/4.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xl font-bold">Fast money in your account</h4>
+                <p class="leading-relaxed mt-2">
+                  Funds can be deposited directly into your bank account as soon
+                  as the next business day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-[100%] md:w-[50%]">
+            <div class="flex">
+              <div class="w-[80px] mr-5">
+                <img
+                  class="h-[86px] w-[80px]"
+                  src="./assets/images/lenders-icon/5.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xl font-bold">Safe & secure</h4>
+                <p class="leading-relaxed mt-2">
+                  We use 256-bit SSL encryption to secure your information — the
+                  same security standard as most banks.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -365,7 +365,7 @@
             mechanic fees, and bills. Our simple online form does not contain
             any long questions and can be completed online in just minutes.
           </p>
-          <div class="flex align-center mt-5 justify-center">
+          <div class="flex align-center mt-5 justify-center hidden md:block">
             <a
               href="#"
               class="bg-[#e84241] py-2 px-4 text-white rounded-[5px] mr-5"
@@ -635,7 +635,9 @@
           guarantee and are subject to change pursuant to each provider’s
           discretion and may not be available in all states or for all types of
           loans. There is no guarantee you will be approved or qualify for the
-          advertised products, rates, fees, or terms presented.  <br />
+          advertised products, rates, fees, or terms presented. 
+        </p>
+        <p class="mb-5 text-[#F2F2F2]">
           Requirements, discounts, credit, debt solutions, settlements or other
           terms and conditions will vary by financial provider.  Late payments
           of loans may result in additional fees or collection activities, or
@@ -650,27 +652,47 @@
 
         <p class="text-[#F2F2F2]">
           Click to learn more about Even Financial Corp’s
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="https://evenfinancial.com/about/legal#licenses"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Licenses and Disclosures</a
           >,
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="termsServices.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Terms of Service</a
           >, and
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="privacyPolicy.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Privacy Policy.</a
           >
           <br />
         </p>
         <p class="mb-5 text-[#F2F2F2]">
           Click to learn more about RoundSky, Inc.’s
-          <a href="#" class="text-[#e84241] underline underline-offset-2"
+          <a
+            href="termsServices.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
             >Terms of Use</a
           >,
-          <a href="#" class="text-[#e84241] underline underline-offset-2">
+          <a
+            href="privacyPolicy.html"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
+          >
             Privacy Policy
           </a>
           and
-          <a href="#" class="text-[#e84241] underline underline-offset-2">
+          <a
+            href="https://pockbox.com/leadgenerator"
+            target="_blank"
+            class="text-[#e84241] underline underline-offset-2"
+          >
             Certain Disclosures About Lead Generation.
           </a>
           <br />
