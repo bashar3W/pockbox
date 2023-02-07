@@ -22,16 +22,15 @@ const stepGroup4 = document.getElementById("stepGroup-4");
 const stepGroup5 = document.getElementById("stepGroup-5");
 const stepGroup6 = document.getElementById("stepGroup-6");
 window.addEventListener("load", () => {
-  // window.history.pushState({currentState: "1"},null,"?step=1")
   // Step Group Item
   const stepGroup1Items = document.querySelectorAll(".stepGroup__item");
   stepGroup1Items.forEach((gp) => {
-    window.history.pushState({ currentState: "1" }, null, "?step=1");
+    window.history.pushState({ currentState: "1" }, null);
     gp.addEventListener("click", () => {
       stepGroup1.style.display = "none";
       stepGroup2.style.display = "block";
       step2.classList.add("active");
-      window.history.pushState({ currentState: "2" }, null, "?step=2");
+      window.history.pushState({ currentState: "2" }, null);
     });
   });
   // Step Group Item
@@ -41,7 +40,7 @@ window.addEventListener("load", () => {
       stepGroup2.style.display = "none";
       stepGroup3.style.display = "block";
       step3.classList.add("active");
-      window.history.pushState({ currentState: "3" }, null, "?step=3");
+      window.history.pushState({ currentState: "3" }, null);
     });
   });
   // Form Reload disabled
@@ -54,7 +53,7 @@ window.addEventListener("load", () => {
     stepGroup3.style.display = "none";
     stepGroup4.style.display = "block";
     step4.classList.add("active");
-    window.history.pushState({ currentState: "4" }, null, "?step=4");
+    window.history.pushState({ currentState: "4" }, null);
   });
   // Step Next 2
   const StepNext2 = document.getElementById("step-next-2");
@@ -62,7 +61,7 @@ window.addEventListener("load", () => {
     stepGroup4.style.display = "none";
     stepGroup5.style.display = "block";
     step5.classList.add("active");
-    window.history.pushState({ currentState: "5" }, null, "?step=5");
+    window.history.pushState({ currentState: "5" }, null);
   });
   // Step Next 3
   const StepNext3 = document.getElementById("step-next-3");
@@ -71,7 +70,7 @@ window.addEventListener("load", () => {
     progressBar.style.display = "none";
     stepGroup5.style.display = "none";
     stepGroup6.style.display = "block";
-    window.history.pushState({ currentState: "0" }, null, "?step=0");
+    window.history.pushState({ currentState: "0" }, null);
   });
   // console.log("")
 });
